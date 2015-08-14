@@ -112,6 +112,16 @@
     background-color: #00B0FF;
 }
 
+.nav-pills > li > a:hover {
+    color: #00B0FF;
+    background-color: #CCCCCC; 
+}
+
+.nav-pills > li > a:focus {
+    color: #00B0FF;
+    background-color: #CCCCCC;
+}
+
 .nav-button {
     display: inline-block;
     margin-left: auto;
