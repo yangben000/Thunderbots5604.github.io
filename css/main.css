@@ -82,10 +82,12 @@
     width: 250px;
     height: 200px;
     border: solid 5px lightgrey;
+    transition: border .2s;
 }
 
 .main-content img:hover {
     border: solid 7px #00B0FF;
+    transition: border .2s;
 }
 
 #sponsors img {
@@ -100,26 +102,20 @@
     border: none;
 }
 
-.nav-pills > li.active > a {
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #FFFFFF;
     background-color: #00B0FF;
+    transition: background 0.5s;
 }
 
-.nav-pills > li.active > a:hover {
-    background-color: #00B0FF;
+.nav-pills > li > a {
+    background: #DDDDDD;
 }
 
-.nav-pills > li.active > a:focus {
-    background-color: #00B0FF;
-}
-
-.nav-pills > li > a:hover {
+.nav-pills > li > a:hover, .nav-pills > li > a:focus {
     color: #00B0FF;
-    background-color: #CCCCCC; 
-}
-
-.nav-pills > li > a:focus {
-    color: #00B0FF;
-    background-color: #CCCCCC;
+    background-color: #BCBCBC;
+    transition: background 0.5s;
 }
 
 .nav-button {
@@ -132,10 +128,12 @@
     width: 180px;
     padding-top: 15px;
     padding-bottom: 15px;
+    transition: background .5s;
 }
 
 .nav-button:hover {
     background: #3BDBF1;
+    transition: background .5s;
 }
 
 .collage img {
@@ -150,6 +148,10 @@
 
 .collage img:hover {
     border: solid 7px #00B0FF;
+}
+
+.footer {
+    background-color: lightgrey;
 }
 
 .small-space {
@@ -176,9 +178,14 @@ a {
     color: #00B0FF;
 }
 
+li a {
+    transition: background .2s;
+}
+
 li a:hover {
     background: #EFEFEF;
     border-radius: 5px;
+    transition: background .2s;
 }
 
 #last img {
@@ -221,6 +228,92 @@ li a:hover {
 
 #top-buttons li {
     display: inline-block;
+}
+
+#social li {
+    display: inline-block;
+}
+
+#social div {
+    width: 50px;
+    height: 50px;
+}
+
+#facebook {
+    background-image: url("img/facebook_icon.png");
+    background-size: cover;
+    transition: background-image .5s;
+}
+
+#facebook:hover {
+    background-image: url("img/facebook_icon_hover.png");
+    transition: background-image .5s;
+}
+
+#twitter {
+    background-image: url("img/twitter_icon.png");
+    background-size: cover;
+    transition: background-image .5s;
+}
+
+#twitter:hover {
+    background-image: url("img/twitter_icon_hover.png");
+    transition: background-image .5s;
+}
+
+#instagram {
+    background-image: url("img/instagram_icon.png");
+    background-size: cover;
+    transition: background-image .5s;
+}
+
+#instagram:hover {
+    background-image: url("img/instagram_icon_hover.png");
+    transition: background-image .5s;
+}
+
+#youtube {
+    background-image: url("img/youtube_icon.png");
+    background-size: cover;
+    transition: background-image .5s;
+}
+
+#youtube:hover {
+    background-image: url("img/youtube_icon_hover.png");
+    transition: background-image .5s;
+}
+
+#googleplus {
+    background-image: url("img/google_plus_icon.png");
+    background-size: cover;
+    transition: background-image .5s;
+}
+
+#googleplus:hover {
+    background-image: url("img/google_plus_icon_hover.png");
+    transition: background-image .5s;
+}
+
+#about {
+    text-align: center;
+    font-family: "Shift";
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#contact {
+    text-align: center;
+    font-family: "Shift";
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#contact a:hover {
+    color: #00B0FF;
+}
+
+#email {
+    margin-top: -20px;
 }
 
 #nav-picture-div {
