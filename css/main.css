@@ -242,56 +242,46 @@ li a:hover {
 #facebook {
     background-image: url("img/facebook_icon.png");
     background-size: cover;
-    transition: background-image .5s;
 }
 
 #facebook:hover {
     background-image: url("img/facebook_icon_hover.png");
-    transition: background-image .5s;
 }
 
 #twitter {
     background-image: url("img/twitter_icon.png");
     background-size: cover;
-    transition: background-image .5s;
 }
 
 #twitter:hover {
     background-image: url("img/twitter_icon_hover.png");
-    transition: background-image .5s;
 }
 
 #instagram {
     background-image: url("img/instagram_icon.png");
     background-size: cover;
-    transition: background-image .5s;
 }
 
 #instagram:hover {
     background-image: url("img/instagram_icon_hover.png");
-    transition: background-image .5s;
 }
 
 #youtube {
     background-image: url("img/youtube_icon.png");
     background-size: cover;
-    transition: background-image .5s;
 }
 
 #youtube:hover {
     background-image: url("img/youtube_icon_hover.png");
-    transition: background-image .5s;
 }
 
 #googleplus {
     background-image: url("img/google_plus_icon.png");
     background-size: cover;
-    transition: background-image .5s;
 }
 
 #googleplus:hover {
     background-image: url("img/google_plus_icon_hover.png");
-    transition: background-image .5s;
 }
 
 #about {
