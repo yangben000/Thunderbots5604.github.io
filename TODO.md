@@ -6,6 +6,7 @@
 * Change font (maybe)
 * Implement signup
 * Should remove 'about'; it just scrolls down
-
+* Create footer.html and move footer code in there
+* Add font awesome icons for all pages, not just index.html
 
 
