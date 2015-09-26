@@ -242,51 +242,6 @@ li a:hover {
     height: 50px;
 }
 
-#facebook {
-    background-image: url("img/facebook_icon.png");
-    background-size: cover;
-}
-
-#facebook:hover {
-    background-image: url("img/facebook_icon_hover.png");
-}
-
-#twitter {
-    background-image: url("img/twitter_icon.png");
-    background-size: cover;
-}
-
-#twitter:hover {
-    background-image: url("img/twitter_icon_hover.png");
-}
-
-#instagram {
-    background-image: url("img/instagram_icon.png");
-    background-size: cover;
-}
-
-#instagram:hover {
-    background-image: url("img/instagram_icon_hover.png");
-}
-
-#youtube {
-    background-image: url("img/youtube_icon.png");
-    background-size: cover;
-}
-
-#youtube:hover {
-    background-image: url("img/youtube_icon_hover.png");
-}
-
-#googleplus {
-    background-image: url("img/google_plus_icon.png");
-    background-size: cover;
-}
-
-#googleplus:hover {
-    background-image: url("img/google_plus_icon_hover.png");
-}
-
 #about {
     text-align: center;
     font-family: "Shift";
