@@ -5,5 +5,6 @@
 * Implement signup
 * Should remove 'about'; it just scrolls down
 * Add font awesome icons for all pages, not just index.html
+* Change error.html to an iframe
 
 
