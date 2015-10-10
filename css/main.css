@@ -1,3 +1,5 @@
+
+
 ::selection {
     background-color: #00B0FF;
     color: #FFFFFF;
@@ -38,7 +40,7 @@
 .jumbotron h1 {
     color: #FFFFFF;
     font-size: 48px;  
-    font-family: "Shift", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -53,21 +55,21 @@
 }
 
 .main-content h1 {
-    font-family: "Shift", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #393C3D;
     font-size: 30px;
     text-align: center;
 }
 
 .main-content h2 {
-    font-family: "Shift", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #393C3D;
     font-size: 24px;
     text-align: center;
 }
 
 .main-content h3 {
-    font-family: "Shift", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -81,12 +83,12 @@
 .main-content img {
     width: 250px;
     height: 200px;
-    border: solid 5px lightgrey;
+    border: solid 5px #fff;
     transition: border .2s;
 }
 
 .main-content img:hover {
-    border: solid 7px #00B0FF;
+    border: solid 7px #2980b9;
     transition: border .2s;
 }
 
@@ -104,7 +106,7 @@
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #FFFFFF;
-    background-color: #00B0FF;
+    background-color: ##3498db;
     transition: background 0.5s;
 }
 
@@ -114,7 +116,7 @@
 
 .nav-pills > li > a:hover, .nav-pills > li > a:focus {
     color: #00B0FF;
-    background-color: #BCBCBC;
+    background-color: #2980b9;
     transition: background 0.5s;
 }
 
@@ -123,7 +125,7 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    background: #00B0FF;
+    background: #2980b9; /*changed*/
     text-align: center;
     width: 180px;
     padding-top: 15px;
@@ -135,7 +137,7 @@
 }
 
 .nav-button:hover {
-    background: #3BDBF1;
+    background: #3498db;
     transition: background .5s;
 }
 
@@ -146,15 +148,15 @@
     margin-bottom: 5px;
     margin-right: 0px;
     margin-left: 0px;
-    border: solid 5px lightgrey;
+    border: solid 5px #fff;
 }
 
 .collage img:hover {
-    border: solid 7px #00B0FF;
+    border: solid 7px #2980b9;
 }
 
 .footer {
-    background-color: lightgrey;
+    background-color: #bdc3c7;
 }
 
 .small-space {
@@ -186,7 +188,7 @@ li a {
 }
 
 li a:hover {
-    background: #EFEFEF;
+    background: #3498db;
     border-radius: 5px;
     transition: background .2s;
 }
@@ -198,13 +200,13 @@ li a:hover {
 
 #top-buttons {
     position: fixed;
-    background: #DDDDDD;
+    background: #2980b9;
     width: 100%;
     z-index: 2;
 }
 
 #top-buttons a {
-    color: #5A5A5A;
+    color: #ecf0f1;
     font-size: 11px;
     font-weight: bold;
     padding: 14px 10px;
@@ -244,20 +246,20 @@ li a:hover {
 
 #about {
     text-align: center;
-    font-family: "Shift";
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     margin-top: -10px;
 }
 
 #contact {
     text-align: center;
-    font-family: "Shift";
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     margin-top: -10px;
 }
 
 #contact a:hover {
-    color: #00B0FF;
+    color: #2980b9;
 }
 
 #email {
@@ -273,4 +275,43 @@ li a:hover {
     display: inline-block;
     position: relative;
     margin-right: 15%;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:hover {
+    text-decoration: none;
+}
+
+h1:hover {
+    text-decoration: none;
+}
+
+h2:hover {
+    text-decoration: none;
+}
+
+h3:hover {
+    text-decoration: none;
 }
