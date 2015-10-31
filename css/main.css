@@ -26,8 +26,8 @@
 }
 
 .jumbotron {
-    background-image: url("img/thunderbots_jumbotron.PNG");
-    height: 500px;
+    background-image: url("img/thunderbots_jumbotron.jpg");
+    height: 380px;
     background-repeat: no-repeat;
     background-size: cover;
 }
