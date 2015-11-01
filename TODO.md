@@ -3,5 +3,5 @@
 
 * Better jumbotron photos
 * Make a gallery
-* Have sponsor links link to the sponsor's webpage 
+
 
