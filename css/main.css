@@ -39,7 +39,7 @@
 
 .jumbotron h1 {
     color: #FFFFFF;
-    font-size: 48px;  
+    font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -157,6 +157,8 @@
 
 .footer {
     background-color: #bdc3c7;
+    height: 7em;
+  clear: both;
 }
 
 .small-space {
@@ -165,6 +167,7 @@
 
 .space {
     height: 20px;
+    clear: both;
 }
 
 .large-space {
