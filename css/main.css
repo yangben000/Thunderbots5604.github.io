@@ -27,68 +27,69 @@
 
 .jumbotron {
     background-image: url("img/thunderbots_jumbotron.jpg");
-    height: 380px;
+    width: 100%;
+    height: 24em;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .jumbotron .container {
     position: relative;
-    top: 100px;
+    top: 6.45em;
 }
 
 .jumbotron h1 {
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 3.125em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: 1.35em;
     color: #FFFFFF;
 }
 
 .main-content {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #DBDBDB;
+    border-bottom: .0625em solid #DBDBDB;
 }
 
 .main-content h1 {
     font-family: 'Montserrat', sans-serif;
     color: #393C3D;
-    font-size: 30px;
+    font-size: 1.925em;
     text-align: center;
 }
 
 .main-content h2 {
     font-family: 'Montserrat', sans-serif;
     color: #393C3D;
-    font-size: 24px;
+    font-size: 1.6em;
     text-align: center;
 }
 
 .main-content h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 1.35em;
     text-align: center;
 }
 
 .main-content p {
-    font-size: 15px;
-    margin-bottom: 13px;
+    font-size: 1.225em;
+    margin-bottom: .925em;
     text-align: center;
 }
 
 .main-content img {
-    width: 250px;
-    height: 200px;
-    border: solid 5px #fff;
+    width: 15.725em;
+    height: 12.6em;
+    border: solid .4125em #fff;
     transition: border .2s;
 }
 
 .main-content img:hover {
-    border: solid 7px #2980b9;
+    border: solid .5375em #2980b9;
     transition: border .2s;
 }
 
@@ -127,9 +128,9 @@
     color: white;
     background: #2980b9; /*changed*/
     text-align: center;
-    width: 180px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 11.35em;
+    padding-top: 1.0375em;
+    padding-bottom: 1.0375em;
 
 
     transition: background .5s;
@@ -142,44 +143,44 @@
 }
 
 .collage img {
-    width: 300px;
-    height: 200px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 0px;
-    margin-left: 0px;
-    border: solid 5px #fff;
+    width: 18.85em;
+    height: 12.6em;
+    margin-top: .4125em;
+    margin-bottom: .4125em;
+    margin-right: 0em;
+    margin-left: 0em;
+    border: solid .3125em #fff;
 }
 
 .collage img:hover {
-    border: solid 7px #2980b9;
+    border: solid .5375 #2980b9;
 }
 
 .footer {
     background-color: #bdc3c7;
-    height: 7em;
-  clear: both;
+    height: 6.75em;
+    clear: both;
 }
 
 .small-space {
-    height: 10px;
+    height: .725em;
 }
 
 .space {
-    height: 20px;
+    height: 1.35em;
     clear: both;
 }
 
 .large-space {
-    height: 45px;
+    height: 2.9125em;
 }
 
 .very-large-space {
-    height: 55px;
+    height: 3.5375em;
 }
 
 .extra-large-space {
-    height: 90px;
+    height: 5.725em;
 }
 
 a {
@@ -192,13 +193,13 @@ li a {
 
 li a:hover {
     background: #3498db;
-    border-radius: 5px;
+    border-radius: .4125em;
     transition: background .2s;
 }
 
 #last img {
-    height: 400px;
-    width: 350px;
+    height: 25.1em;
+    width: 21.975em;
 }
 
 #top-buttons {
@@ -210,24 +211,24 @@ li a:hover {
 
 #top-buttons a {
     color: #ecf0f1;
-    font-size: 11px;
+    font-size: .75em;
     font-weight: bold;
-    padding: 14px 10px;
+    padding: .875em .625em;
     text-transform: uppercase;
 }
 
 #community img {
-    height: 250px;
-    width: 350px;
+    height: 15.725em;
+    width: 21.975em;
 }
 
 #sponsors img {
-    width: 150px;
-    height: 150px;
+    width: 9.475em;
+    height: 9.475em;
 }
 
 #first img {
-    margin-top: 20px;
+    margin-top: 1.35em;
 }
 
 #team p {
@@ -243,22 +244,22 @@ li a:hover {
 }
 
 #social div {
-    width: 50px;
-    height: 50px;
+    width: 3.225em;
+    height: 3.225em;
 }
 
 #about {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    margin-top: -10px;
+    margin-top: -.725em;
 }
 
 #contact {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    margin-top: -10px;
+    margin-top: -.725em;
 }
 
 #contact a:hover {
@@ -266,15 +267,15 @@ li a:hover {
 }
 
 #email {
-    margin-top: -20px;
+    margin-top: -1.35em;
 }
 
 #nav-picture-div {
-    height: 0px;
+    height: 0em;
 }
 
 #nav-picture {
-    height: 45px;
+    height: 4em;
     display: inline-block;
     position: relative;
     margin-right: 15%;
