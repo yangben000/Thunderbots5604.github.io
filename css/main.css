@@ -157,7 +157,11 @@
 }
 
 .footer {
-    height: 14.75em;
+  border: none;
+  height: 287.2px;
+  position: absolute;
+  bottom 3;
+  width: 100%;
 }
 
 .small-space {
@@ -473,3 +477,9 @@ a:active {
   text-align: center;
 }
 
+#wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 99%;
+}
