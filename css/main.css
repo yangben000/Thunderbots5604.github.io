@@ -157,9 +157,7 @@
 }
 
 .footer {
-    background-color: #bdc3c7;
-    height: 6.75em;
-    clear: both;
+    height: 14.75em;
 }
 
 .small-space {
@@ -187,7 +185,7 @@ a {
     color: #00B0FF;
 }
 
-li a {
+/*li a {
     transition: background .2s;
 }
 
@@ -195,7 +193,7 @@ li a:hover {
     background: #3498db;
     border-radius: .4125em;
     transition: background .2s;
-}
+}*/
 
 #last img {
     height: 25.1em;
@@ -239,14 +237,6 @@ li a:hover {
     display: inline-block;
 }
 
-#social li {
-    display: inline-block;
-}
-
-#social div {
-    width: 3.225em;
-    height: 3.225em;
-}
 
 #about {
     text-align: center;
@@ -335,3 +325,151 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.text-center {
+  text-align: center;
+  display: block;
+}
+
+.social {
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 16px;
+  list-style: none;
+  text-align: center;
+  padding-left:0;
+}
+
+.web-footer {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  width: 100%;
+    diplay:block;
+  margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+      box-sizing: border-box;
+  display: block;
+}
+
+.footerfull {
+  max-width: 100%;
+      margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+      box-sizing: border-box;
+  display: block;
+}
+
+.footerfullback {
+  background: #D2D7D3;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+      box-sizing: border-box;
+}
+
+.footwrap {
+
+  width: 100%;
+  text-align: center;
+}
+
+.social>* {
+  display: inline-block;
+      margin: 0 8px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+  text-align: center;
+
+}
+
+.social a img{
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.h5 {
+  text-align: center;
+      font-size: 1.6rem;
+    line-height: 1.6;
+    letter-spacing: 0.070em;
+  font-family: Montserrat;
+}
+
+.foo {
+  width: 100%;
+ background:#bdc3c7;
+}
+
+
+.footcontainer {
+  margin: auto;
+  text-align: center;
+}
+
