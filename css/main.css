@@ -157,11 +157,11 @@
 }
 
 .footer {
-  border: none;
-  height: 287.2px;
   position: absolute;
-  bottom 3;
+  bottom: 0;
   width: 100%;
+  height: 287px;
+  border: none;
 }
 
 .small-space {

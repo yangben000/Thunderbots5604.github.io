@@ -225,6 +225,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+    position: relative;
 }
 input, button, select, textarea {
     font-family: inherit;
