@@ -189,15 +189,15 @@ a {
     color: #00B0FF;
 }
 
-/*li a {
+#top-buttons li a {
     transition: background .2s;
 }
 
-li a:hover {
+#top-buttons li a:hover {
     background: #3498db;
     border-radius: .4125em;
     transition: background .2s;
-}*/
+}
 
 #last img {
     height: 25.1em;
@@ -477,9 +477,14 @@ a:active {
   text-align: center;
 }
 
-#wrapper {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 99%;
+
+
+.social li img {
+    transition: background .2s;
+}
+
+.social li img:hover {
+    background: #a8aca8;
+
+    transition: background .2s;
 }
