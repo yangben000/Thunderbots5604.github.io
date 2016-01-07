@@ -10,16 +10,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <link rel="icon" type="image/png" href="css/img/thunderbots_icon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="css/img/thunderbots_icon-16x16.png" sizes="16x16" />
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-		<link rel="stylesheet" type="text/css" href="css/custom.css" />
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
 		<link rel="shortcut icon" href="../favicon.ico">
         <link type="text/css" rel="stylesheet" href="css/normalize.css">
         <link type="text/css" rel="stylesheet" href="css/shift.css">
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <link type="text/css" rel="stylesheet" href="css/main.css" />
-		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/component.css">
+		<script type="text/javascript" src="js/modernizr.custom.js"></script>
         <!--[if lt IE 9]>
             <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -85,154 +84,137 @@
             </div>
         </div>
 
-        <div class="space"></div>
-
-		<div class="wrapper">
-
-				<ul id="sb-slider" class="sb-slider">
-					<li>
-                        <a href="images/1.jpg" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Team Meeting</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/3.jpg" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Our Workspace</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/4.jpg" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>The Programmers</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/5.jpg" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Our Builders</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/6.jpg" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Our Materials</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/7.jpg" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Setting Up Our First Competition of the 2015 Year</h3>
-						</div>
-					</li>
-					<li>
-						<a href="images/8.jpg" target="_blank"><img src="images/8.jpg" alt="image1"/></a>
-						<div class="sb-description">
-							<h3>Getting Ready for the Competition</h3>
-						</div>
-					</li>
-				</ul>
-
-				<div id="shadow" class="shadow"></div>
-
-				<div id="nav-arrows" class="nav-arrows">
-					<a href="#">Next</a>
-					<a href="#">Previous</a>
-				</div>
-
-				<div id="nav-dots" class="nav-dots">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-
-			</div><!-- /wrapper -->
-
-
+        <div class="very-large-space"></div>
+		<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid" style="position: relative; height: 3402.87px;">
+						<li class="grid-sizer" style="position: absolute; left: 0px; top: 0px;"></li><!-- for Masonry column width -->
+						<li style="position: absolute; left: 0px; top: 0px;">
+							<figure>
+								<img src="img/thumb/1.jpg" alt="img01">
+								<figcaption><h3>Team Meeting</h3><p>The Thunderbots5604 team meets to discuss about the robot. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 291px; top: 0px;">
+							<figure>
+								<img src="img/thumb/3.jpg" alt="img02">
+								<figcaption><h3>Our Workspace</h3><p>Where we work on our robot. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 582px; top: 0px;">
+							<figure>
+								<img src="img/thumb/4.jpg" alt="img03">
+								<figcaption><h3>The Programmers</h3><p>The programmers working hard, as always. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 0px; top: 328px;">
+							<figure>
+								<img src="img/thumb/5.jpg" alt="img04">
+								<figcaption><h3>Our Builders</h3><p>Builders grab the materials and work on the robot. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 582px; top: 374px;">
+							<figure>
+								<img src="img/thumb/6.jpg" alt="img05">
+								<figcaption><h3>Our Materials</h3><p>A close up of the bottom frame of the robot at the beginning this season. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 291px; top: 467px;">
+							<figure>
+								<img src="img/thumb/7.jpg" alt="img06">
+								<figcaption><h3>Setting Up Our First Competition of the 2015 Year</h3><p>The Thunderbots5604 work with the Union Robotics team to put together the field. </p></figcaption>
+							</figure>
+						</li>
+						<li style="position: absolute; left: 0px; top: 801px;">
+							<figure>
+								<img src="img/thumb/8.jpg" alt="img01">
+								<figcaption><h3>Our First Competition Ramps Up</h3><p>All the teams prepare for the oncoming match!</p></figcaption>
+							</figure>
+						</li>
+					</ul>
+				</section><!-- // grid-wrap -->
+				<section class="slideshow">
+					<ul>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Team Meeting</h3>
+									<p>The Thunderbots5604 team meets to discuss about the robot.</p>
+								</figcaption>
+								<a href="img/large/1.jpg"><img src="img/large/1.jpg" alt="img01"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Our Workspace</h3>
+									<p>Where we work on our robot.</p>
+								</figcaption>
+								<a href="img/large/3.jpg"><img src="img/large/3.jpg" alt="img02"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>The Programmers</h3>
+									<p>The programmers working hard, as always.</p>
+								</figcaption>
+								<a href="img/large/4.jpg"><img src="img/large/4.jpg" alt="img03"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Our Builders</h3>
+									<p>Builders grab the materials and work on the robot.</p>
+								</figcaption>
+								<a href="img/large/5.jpg"><img src="img/large/5.jpg" alt="img04"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Our Materials</h3>
+									<p>A close up of the bottom frame of the robot at the beginning this season.</p>
+								</figcaption>
+								<a href="img/large/6.jpg"><img src="img/large/6.jpg" alt="img05"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Setting Up Our First Competition of the 2015 Year</h3>
+									<p>The Thunderbots5604 work with the Union Robotics team to put together the field.</p>
+								</figcaption>
+								<a href="img/large/7.jpg"><img src="img/large/7.jpg" alt="img06"></a>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<figcaption>
+									<h3>Our First Competition Ramps Up</h3>
+									<p>All the teams prepare for the oncoming match!</p>
+								</figcaption>
+								<a href="img/large/8.jpg"><img src="img/large/8.jpg" alt="img01"></a>
+							</figure>
+						</li>
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // slideshow -->
+			</div>
 		</div>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
-		<script type="text/javascript">
-			$(function() {
 
-				var Page = (function() {
-
-					var $navArrows = $( '#nav-arrows' ).hide(),
-						$navDots = $( '#nav-dots' ).hide(),
-						$nav = $navDots.children( 'span' ),
-						$shadow = $( '#shadow' ).hide(),
-						slicebox = $( '#sb-slider' ).slicebox( {
-							onReady : function() {
-
-								$navArrows.show();
-								$navDots.show();
-								$shadow.show();
-
-							},
-							onBeforeChange : function( pos ) {
-
-								$nav.removeClass( 'nav-dot-current' );
-								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
-							}
-						} ),
-
-						init = function() {
-
-							initEvents();
-
-						},
-						initEvents = function() {
-
-							// add navigation events
-							$navArrows.children( ':first' ).on( 'click', function() {
-
-								slicebox.next();
-								return false;
-
-							} );
-
-							$navArrows.children( ':last' ).on( 'click', function() {
-
-								slicebox.previous();
-								return false;
-
-							} );
-
-							$nav.each( function( i ) {
-
-								$( this ).on( 'click', function( event ) {
-
-									var $dot = $( this );
-
-									if( !slicebox.isActive() ) {
-
-										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-
-									}
-
-									slicebox.jump( i + 1 );
-									return false;
-
-								} );
-
-							} );
-
-						};
-
-						return { init : init };
-
-				})();
-
-				Page.init();
-
-			});
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpGridGallery.js"></script>
+		<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 		</script>
                 <div class="very-large-space"></div>
                 <div class="very-large-space"></div>
