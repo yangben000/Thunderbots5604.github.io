@@ -28,10 +28,12 @@
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
+	font-size: 1.75em;
 }
 
 .grid-gallery figcaption p {
 	margin: 0;
+	font-size: 1em;
 }
 
 /* Grid style */
@@ -159,7 +161,7 @@
 
 .slideshow figcaption h3 {
 	font-weight: 300;
-	font-size: 200%;
+	font-size: 2em;
 }
 
 /* Navigation */
