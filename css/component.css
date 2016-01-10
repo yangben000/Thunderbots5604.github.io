@@ -36,6 +36,21 @@
 	font-size: 1em;
 }
 
+@media screen and (max-width: 755px) {
+	.grid-gallery figcaption h3 {
+	margin: 0;
+	padding: 0 0 0.5em;
+	font-size: 0px;
+	}
+}
+
+@media screen and (max-width: 230px) {
+	.grid-gallery figcaption p {
+	margin: 0;
+	font-size: 0px;
+	}
+}
+
 /* Grid style */
 .grid-wrap {
 	max-width: 69em;
@@ -163,6 +178,7 @@
 	font-weight: 300;
 	font-size: 2em;
 }
+
 
 /* Navigation */
 .slideshow nav span {
