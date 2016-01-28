@@ -45,6 +45,11 @@
     font-weight: bold;
 }
 
+.trc ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
 .jumbotron p {
     font-size: 1.35em;
     color: #FFFFFF;
