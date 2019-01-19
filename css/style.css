@@ -8,3 +8,15 @@
 .nav-text:hover {
 	color: #bdc3c7 !important;
 }
+
+.nav-transition {
+	transition: background-color 1s ease 0s;
+}
+
+.stretch {
+	height: 100%;
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
