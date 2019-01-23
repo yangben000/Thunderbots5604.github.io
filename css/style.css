@@ -1,7 +1,9 @@
 .active {
 	color: #bdc3c7;
 }
-
+.white {
+	color: #ecf0f1 !important;
+}
 .nav-text {
 	color: #ecf0f1 !important;
 }
