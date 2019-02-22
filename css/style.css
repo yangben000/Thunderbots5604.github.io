@@ -13,3 +13,14 @@
 .nav-transition {
 	transition: background-color 1s ease 0s;
 }
+.testingtest {
+	margin: auto;
+}
+.testingtest img {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+.background-black {
+	background: #000000;
+}
