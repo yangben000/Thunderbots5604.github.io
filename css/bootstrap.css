@@ -588,8 +588,8 @@ pre code {
     width: 1170px;
 }
 }.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: none;
+    margin-left: none;
     padding-left: 0px;
     padding-right: 0px;
 }
